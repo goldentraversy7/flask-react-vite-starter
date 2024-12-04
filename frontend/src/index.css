@@ -1,0 +1,71 @@
+/* Import TailwindCSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS Overrides
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    --color-light: #ffffff;
+    --color-dark: #242424;
+    --color-primary: #646cff;
+    --color-primary-hover: #535bf2;
+    --color-secondary: #213547;
+
+    color-scheme: light dark;
+    color: var(--color-light);
+    background-color: var(--color-dark);
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    font-weight: 500;
+    color: var(--color-primary);
+    text-decoration: inherit;
+    transition: color 0.2s;
+}
+a:hover {
+    color: var(--color-primary-hover);
+}
+
+body {
+    @apply bg-gray-900 text-gray-100;
+    margin: 0;
+    min-width: 320px;
+    min-height: 100vh;
+}
+
+h1 {
+    @apply text-4xl font-bold leading-tight;
+}
+
+button {
+    @apply rounded-lg border border-transparent px-4 py-2 text-base font-medium bg-gray-800 text-white transition-all;
+}
+button:hover {
+    @apply border-gray-400;
+}
+button:focus,
+button:focus-visible {
+    @apply outline-none ring-2 ring-offset-2 ring-gray-400;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        color: var(--color-secondary);
+        background-color: var(--color-light);
+    }
+    a:hover {
+        color: #747bff;
+    }
+    button {
+        @apply bg-gray-100 text-black;
+    }
+} */
