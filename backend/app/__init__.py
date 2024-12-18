@@ -15,7 +15,7 @@ def create_app():
     jwt.init_app(app)
 
     # Enable CORS
-    CORS(app, resources={r"/api/*": {"origins": "http://localhost:5173"}})
+    CORS(app, resources={r"/api/*": {"origins": "http://localhost:3000"}})
 
     # Register blueprints
     for blueprint in blueprints:
